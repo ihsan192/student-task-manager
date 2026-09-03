@@ -260,3 +260,99 @@ body {
   color: #64748b;
 }
 }
+/* =========================
+   DARK MODE
+========================= */
+
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.theme-toggle button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: white;
+  color: #334155;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.theme-toggle button:hover {
+  background: #e2e8f0;
+}
+
+/* Background */
+
+.app.dark {
+  background: #0f172a;
+}
+
+/* Header */
+
+.app.dark .header h1 {
+  color: white;
+}
+
+.app.dark .header p {
+  color: #94a3b8;
+}
+
+/* Card */
+
+.app.dark .stat-card,
+.app.dark .task-form,
+.app.dark .task-item,
+.app.dark .empty-task {
+  background: #1e293b;
+}
+
+/* Text */
+
+.app.dark .stat-card h2,
+.app.dark .task-form h2,
+.app.dark .task-item h3,
+.app.dark .empty-task h3 {
+  color: white;
+}
+
+/* Secondary text */
+
+.app.dark .stat-card p,
+.app.dark .task-info {
+  color: #94a3b8;
+}
+
+/* Input */
+
+.app.dark .task-form input,
+.app.dark .task-form select {
+  background: #0f172a;
+  color: white;
+  border-color: #475569;
+}
+
+/* Filter */
+
+.app.dark .filter-container button {
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
+.app.dark .filter-container button.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* Theme button */
+
+.app.dark .theme-toggle button {
+  background: #334155;
+  color: white;
+}
+
+.app.dark .theme-toggle button:hover {
+  background: #475569;
+}
